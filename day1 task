@@ -1,0 +1,7 @@
+#india scored 350 runs in 50 overs against pakistan in 1996
+#var=india,350,50,pakistan,1996
+var1="besant tech"
+print(var1[3:9])#pp
+print(var1[-8:-2])#nn
+print(var1[3:-2])#pn
+print(var1[-8:9])#np

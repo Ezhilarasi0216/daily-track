@@ -1,0 +1,39 @@
+class Emp:
+    def __init__(self):
+        self.id=16
+        self.name="ezhil"
+        self.salary=500
+class Child(Emp):
+    def show(self):
+        print("ID:",self.id,"Name:",self.name,"Salary:",self.salary)
+emp1=Child()
+emp1.show()
+
+#%%
+class camera:
+    def camera_rolling(self):
+        print("camera rolling")
+class phone:
+    def phone_calling(self):
+        print("phone calling")
+class smartphone(camera,phone):
+    def smartphone(self):
+        print("smartphone calling")
+s=smartphone()
+s.camera_rolling()
+s.phone_calling()
+s.smartphone()
+
+class vehicle:
+    def start(self):
+        print("vehicle start")
+class car(vehicle):
+    def stop(self):
+        print("car stop")
+class electricbike(car):
+    def charge(self):
+        print("electricbike charging")
+e=electricbike()
+e.start()
+e.stop()
+e.charge()
